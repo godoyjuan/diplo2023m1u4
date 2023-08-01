@@ -1,46 +1,75 @@
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
+*/
 
-body{
 
+
+
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
 }
 
-#foto{
-    padding-left: 50%;
+#foto {
+    /* el tamaño de la imagen es 211x238 */
+    margin-left: 50%;
+    padding: 10px; 
+    width: 220px;
+    height: 240px;
+    border: 5px solid;
+    color: black;
+    border-radius: 20px;
 }
 
 
-h1{
-    color:green;
+h1 {
+    font-family: 'Noto Serif', serif;
+    color: green;
     background-color: yellow;
     text-align: center;
     font-size: 60px;
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-h3{
+h3 {
     font-size: 30px;
 }
 
-p{
+p {
     font-size: 20px;
     font-style: italic;
 }
 
-.parrafo{
+.parrafo1{
 
-    background-color: blue;
-    width: 800px;
+    /* background-color: #fdfd96; */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4efc0+0,abbd73+100;Olive+3D+%232 */
+background: #e4efc0; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e4efc0 0%, #abbd73 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #e4efc0 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #e4efc0 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    /* width: 800px;
     height: 550px;
-    padding: 50px;
-    box-sizing: border-box;
+    padding: 50px; */
+   /* box-sizing:border-box; */
     margin-left: 30px;
-   
+    margin-right: 30px;
+    border-radius: 10px;
+
 }
 
-.parrafo{
-    text-align: center;
+.parrafo2 {
+   
+    column-count: 3;
+    text-align: justify;
+    /*column-gap: 20px; */
 }
